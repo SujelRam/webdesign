@@ -1,1 +1,25 @@
-g
+Project Description:
+I developed a Student Detail Form webpage using HTML, CSS, and JavaScript to efficiently collect and manage student information. The form includes input fields for student name, age, contact number, address, and course details, ensuring a user-friendly and responsive design. This project is uploaded on GitHub, organized in a dedicated repository I created, showcasing my skills in front-end development and version control.
+
+Key Features:
+
+Responsive Design: Optimized for various screen sizes.
+
+Form Validation: Real-time input validation using JavaScript.
+
+Clean UI: Structured layout with intuitive form fields.
+
+GitHub Repository: Managed using Git for version control and collaboration.
+
+Jenkins Job Creation:
+To automate the build and deployment process, I created a Jenkins job for this project:
+
+Job Type: Freestyle Project.
+
+Source Code Management: Linked to my GitHub repository using the repository URL.
+
+Build Trigger: Configured with GitHub webhook for automatic builds on every code push.
+
+Build Steps: Includes shell commands for code testing, linting, and deployment.
+
+Post-Build Actions: Notifications on build success or failure for better project monitoring.
