@@ -65,3 +65,6 @@ form#iform input[type="submit"] {
 form#iform input[type="submit"]:hover {
     background-color: #2e7d32;
 }
+#text{
+    display: block;
+}
